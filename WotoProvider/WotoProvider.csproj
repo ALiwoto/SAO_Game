@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEAE4A50-4AA8-4350-A672-CEE9D3B89E34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WotoProvider</RootNamespace>
+    <AssemblyName>WotoProvider</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\Errors.cs" />
+    <Compile Include="Enums\HeroImageTypes.cs" />
+    <Compile Include="Enums\HeroType.cs" />
+    <Compile Include="Enums\InfoLabels.cs" />
+    <Compile Include="Enums\PlayerResourceType.cs" />
+    <Compile Include="EventHandlers\SoundLocationChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\TickHandler.cs" />
+    <Compile Include="EventHandlers\TickHandlerEventArgs.cs" />
+    <Compile Include="EventHandlers\WotoEventArgs.cs" />
+    <Compile Include="EventHandlers\LoopModeChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\LoopModeChangedEventHandler.cs" />
+    <Compile Include="EventHandlers\SoundLocationChangedEventHandler.cs" />
+    <Compile Include="EventHandlers\SoundPlayerDisposedEventArgs.cs" />
+    <Compile Include="EventHandlers\SoundPlayerDisposedEventHandler.cs" />
+    <Compile Include="EventHandlers\VolumeChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\VolumeChangedEventHandler.cs" />
+    <Compile Include="Interfaces\IDataProvider.cs" />
+    <Compile Include="Interfaces\IDateProvider.cs" />
+    <Compile Include="Interfaces\IDECoderProvider.cs" />
+    <Compile Include="Interfaces\IQStringProvider.cs" />
+    <Compile Include="Interfaces\IServerProvider.cs" />
+    <Compile Include="Interfaces\ISessionData.cs" />
+    <Compile Include="Interfaces\IStringProvider.cs" />
+    <Compile Include="Interfaces\Security\ICryptoTransform.cs" />
+    <Compile Include="Interfaces\Security\IQStringConvertor.cs" />
+    <Compile Include="Interfaces\Security\ISecurityChecker.cs" />
+    <Compile Include="Interfaces\Security\ISessionChecker.cs" />
+    <Compile Include="Interfaces\Security\IStrongStringProvider.cs" />
+    <Compile Include="WotoTools\TaskBar.cs" />
+    <Compile Include="WotoCreation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graphics\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

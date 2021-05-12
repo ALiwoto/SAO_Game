@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Basis_Icons" xml:space="preserve">
+    <value>f_301220201536.bin</value>
+  </data>
+  <data name="Chat_Icons" xml:space="preserve">
+    <value>f_130120211951.bin</value>
+  </data>
+  <data name="Game_Main_Icons" xml:space="preserve">
+    <value>f_111220201342.bin</value>
+  </data>
+  <data name="Main_Icons" xml:space="preserve">
+    <value>f_301220201537.bin</value>
+  </data>
+  <data name="s_btn_arrow_1" xml:space="preserve">
+    <value>"x":432,"y":459,"w":26,"h":20</value>
+  </data>
+  <data name="s_btn_arrow_2" xml:space="preserve">
+    <value>"x":257,"y":610,"w":12,"h":20</value>
+  </data>
+  <data name="s_btn_arrow_3" xml:space="preserve">
+    <value>"x":340,"y":114,"w":18,"h":20</value>
+  </data>
+  <data name="s_btn_arrow_4" xml:space="preserve">
+    <value>"x":478,"y":417,"w":30,"h":40</value>
+  </data>
+  <data name="s_btn_arrow_5" xml:space="preserve">
+    <value>"x":370,"y":90,"w":44,"h":22</value>
+  </data>
+  <data name="s_btn_cd_down" xml:space="preserve">
+    <value>"x":482,"y":712,"w":26,"h":26</value>
+  </data>
+  <data name="s_btn_cd_up" xml:space="preserve">
+    <value>"x":198,"y":582,"w":26,"h":26</value>
+  </data>
+  <data name="s_btn_cir_1_down" xml:space="preserve">
+    <value>"x":432,"y":228,"w":70,"h":70</value>
+  </data>
+  <data name="s_btn_cir_1_up" xml:space="preserve">
+    <value>"x":372,"y":156,"w":70,"h":70</value>
+  </data>
+  <data name="s_btn_close_1_down" xml:space="preserve">
+    <value>"x":362,"y":534,"w":46,"h":46</value>
+  </data>
+  <data name="s_btn_close_1_up" xml:space="preserve">
+    <value>"x":226,"y":562,"w":46,"h":46</value>
+  </data>
+  <data name="s_btn_close_2_down" xml:space="preserve">
+    <value>"x":482,"y":682,"w":28,"h":28</value>
+  </data>
+  <data name="s_btn_close_2_up" xml:space="preserve">
+    <value>"x":340,"y":156,"w":28,"h":28</value>
+  </data>
+  <data name="s_btn_close_4_down" xml:space="preserve">
+    <value>"x":198,"y":610,"w":30,"h":30</value>
+  </data>
+  <data name="s_btn_close_4_up" xml:space="preserve">
+    <value>"x":84,"y":624,"w":30,"h":30</value>
+  </data>
+  <data name="s_btn_minus_down" xml:space="preserve">
+    <value>"x":116,"y":650,"w":24,"h":25</value>
+  </data>
+  <data name="s_btn_minus_up" xml:space="preserve">
+    <value>"x":143,"y":634,"w":24,"h":25</value>
+  </data>
+  <data name="s_btn_no_1_down" xml:space="preserve">
+    <value>"x":388,"y":373,"w":110,"h":42</value>
+  </data>
+  <data name="s_btn_no_1_up" xml:space="preserve">
+    <value>"x":276,"y":350,"w":110,"h":42</value>
+  </data>
+  <data name="s_btn_plus_down" xml:space="preserve">
+    <value>"x":276,"y":514,"w":24,"h":25</value>
+  </data>
+  <data name="s_btn_plus_up" xml:space="preserve">
+    <value>"x":200,"y":446,"w":24,"h":25</value>
+  </data>
+  <data name="s_btn_rect_1_disabled" xml:space="preserve">
+    <value>"x":452,"y":644,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_1_down" xml:space="preserve">
+    <value>"x":452,"y":606,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_1_up" xml:space="preserve">
+    <value>"x":400,"y":582,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_2_down" xml:space="preserve">
+    <value>"x":156,"y":544,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_2_up" xml:space="preserve">
+    <value>"x":104,"y":544,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_3_down" xml:space="preserve">
+    <value>"x":52,"y":544,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_3_up" xml:space="preserve">
+    <value>"x":430,"y":758,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_4_down" xml:space="preserve">
+    <value>"x":430,"y":720,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_rect_4_up" xml:space="preserve">
+    <value>"x":430,"y":682,"w":50,"h":36</value>
+  </data>
+  <data name="s_btn_refresh_down" xml:space="preserve">
+    <value>"x":482,"y":740,"w":26,"h":26</value>
+  </data>
+  <data name="s_btn_refresh_up" xml:space="preserve">
+    <value>"x":482,"y":768,"w":26,"h":26</value>
+  </data>
+  <data name="s_btn_tab_1_down" xml:space="preserve">
+    <value>"x":206,"y":84,"w":60,"h":100</value>
+  </data>
+  <data name="s_btn_tab_1_up" xml:space="preserve">
+    <value>"x":144,"y":84,"w":60,"h":100</value>
+  </data>
+  <data name="s_btn_tab_2_down" xml:space="preserve">
+    <value>"x":104,"y":258,"w":154,"h":52</value>
+  </data>
+  <data name="s_btn_tab_2_up" xml:space="preserve">
+    <value>"x":42,"y":204,"w":154,"h":52</value>
+  </data>
+  <data name="s_btn_tab_3" xml:space="preserve">
+    <value>"x":0,"y":534,"w":50,"h":50</value>
+  </data>
+  <data name="s_btn_tab_4_down" xml:space="preserve">
+    <value>"x":102,"y":446,"w":96,"h":40</value>
+  </data>
+  <data name="s_btn_tab_4_up" xml:space="preserve">
+    <value>"x":380,"y":417,"w":96,"h":40</value>
+  </data>
+  <data name="s_btn_tab_5_down" xml:space="preserve">
+    <value>"x":260,"y":224,"w":110,"h":52</value>
+  </data>
+  <data name="s_btn_tab_5_up" xml:space="preserve">
+    <value>"x":370,"y":42,"w":110,"h":46</value>
+  </data>
+  <data name="s_btn_tab_6_down" xml:space="preserve">
+    <value>"x":330,"y":0,"w":130,"h":40</value>
+  </data>
+  <data name="s_btn_tab_6_up" xml:space="preserve">
+    <value>"x":360,"y":114,"w":130,"h":40</value>
+  </data>
+  <data name="s_btn_tab_7_down" xml:space="preserve">
+    <value>"x":146,"y":608,"w":50,"h":24</value>
+  </data>
+  <data name="s_btn_tab_7_up" xml:space="preserve">
+    <value>"x":146,"y":582,"w":50,"h":24</value>
+  </data>
+  <data name="s_btn_tab_8_down" xml:space="preserve">
+    <value>"x":260,"y":278,"w":170,"h":30</value>
+  </data>
+  <data name="s_btn_tab_8_up" xml:space="preserve">
+    <value>"x":104,"y":341,"w":170,"h":30</value>
+  </data>
+  <data name="s_btn_tip_1_down" xml:space="preserve">
+    <value>"x":410,"y":534,"w":46,"h":46</value>
+  </data>
+  <data name="s_btn_tip_1_up" xml:space="preserve">
+    <value>"x":458,"y":558,"w":46,"h":46</value>
+  </data>
+  <data name="s_btn_yes_1_down" xml:space="preserve">
+    <value>"x":226,"y":438,"w":110,"h":42</value>
+  </data>
+  <data name="s_btn_yes_1_up" xml:space="preserve">
+    <value>"x":226,"y":394,"w":110,"h":42</value>
+  </data>
+  <data name="s_chat_anx_btn_down" xml:space="preserve">
+    <value>"x":0,"y":381,"w":60,"h":32</value>
+  </data>
+  <data name="s_chat_anx_btn_up" xml:space="preserve">
+    <value>"x":0,"y":347,"w":60,"h":32</value>
+  </data>
+  <data name="s_chat_anx_friend_down" xml:space="preserve">
+    <value>"x":354,"y":252,"w":28,"h":20</value>
+  </data>
+  <data name="s_chat_anx_friend_up" xml:space="preserve">
+    <value>"x":480,"y":222,"w":28,"h":20</value>
+  </data>
+  <data name="s_chat_anx_mail_down" xml:space="preserve">
+    <value>"x":290,"y":72,"w":22,"h":16</value>
+  </data>
+  <data name="s_chat_anx_mail_up" xml:space="preserve">
+    <value>"x":486,"y":244,"w":22,"h":16</value>
+  </data>
+  <data name="s_chat_arrow_1" xml:space="preserve">
+    <value>"x":242,"y":212,"w":6,"h":10</value>
+  </data>
+  <data name="s_chat_arrow_2" xml:space="preserve">
+    <value>"x":0,"y":218,"w":5,"h":10</value>
+  </data>
+  <data name="s_chat_bg_1" xml:space="preserve">
+    <value>"x":214,"y":210,"w":80,"h":40</value>
+  </data>
+  <data name="s_chat_btn_zoom_down" xml:space="preserve">
+    <value>"x":242,"y":102,"w":34,"h":108</value>
+  </data>
+  <data name="s_chat_btn_zoom_up" xml:space="preserve">
+    <value>"x":278,"y":102,"w":34,"h":108</value>
+  </data>
+  <data name="s_chat_pnl_bg_1" xml:space="preserve">
+    <value>"x":0,"y":0,"w":240,"h":216</value>
+  </data>
+  <data name="s_chat_pnl_bg_2" xml:space="preserve">
+    <value>"x":242,"y":0,"w":100,"h":100</value>
+  </data>
+  <data name="s_chat_send_fake" xml:space="preserve">
+    <value>f_250120211006.bin</value>
+  </data>
+  <data name="s_chk_1_disabled" xml:space="preserve">
+    <value>"x":84,"y":656,"w":24,"h":24</value>
+  </data>
+  <data name="s_chk_1_selected" xml:space="preserve">
+    <value>"x":228,"y":57,"w":27,"h":25</value>
+  </data>
+  <data name="s_chk_1_up" xml:space="preserve">
+    <value>"x":257,"y":632,"w":24,"h":24</value>
+  </data>
+  <data name="s_golden_btn_chat" xml:space="preserve">
+    <value>f_300120211219.bin</value>
+  </data>
+  <data name="s_grad_bg_1" xml:space="preserve">
+    <value>"x":84,"y":616,"w":18,"h":6</value>
+  </data>
+  <data name="s_grad_bg_2" xml:space="preserve">
+    <value>"x":72,"y":526,"w":152,"h":16</value>
+  </data>
+  <data name="s_img_sign_1" xml:space="preserve">
+    <value>"x":482,"y":42,"w":27,"h":30</value>
+  </data>
+  <data name="s_img_sign_2" xml:space="preserve">
+    <value>"x":482,"y":74,"w":27,"h":30</value>
+  </data>
+  <data name="s_ir_bg" xml:space="preserve">
+    <value>"x":144,"y":0,"w":82,"h":82</value>
+  </data>
+  <data name="s_ir_form" xml:space="preserve">
+    <value>"x":226,"y":373,"w":26,"h":19</value>
+  </data>
+  <data name="s_line_tab_1" xml:space="preserve">
+    <value>"x":298,"y":547,"w":2,"h":4</value>
+  </data>
+  <data name="s_line_tab_2" xml:space="preserve">
+    <value>"x":298,"y":541,"w":2,"h":4</value>
+  </data>
+  <data name="s_li_type1_1" xml:space="preserve">
+    <value>"x":116,"y":624,"w":25,"h":24</value>
+  </data>
+  <data name="s_li_type1_2" xml:space="preserve">
+    <value>"x":230,"y":610,"w":25,"h":24</value>
+  </data>
+  <data name="s_li_type1_3" xml:space="preserve">
+    <value>"x":0,"y":674,"w":24,"h":24</value>
+  </data>
+  <data name="s_li_type1_4" xml:space="preserve">
+    <value>"x":36,"y":658,"w":24,"h":24</value>
+  </data>
+  <data name="s_lock" xml:space="preserve">
+    <value>"x":0,"y":628,"w":34,"h":44</value>
+  </data>
+  <data name="s_main_advert_down" xml:space="preserve">
+    <value>"x":138,"y":376,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_advert_up" xml:space="preserve">
+    <value>"x":132,"y":426,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_anx_chat_down" xml:space="preserve">
+    <value>"x":444,"y":326,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_anx_chat_up" xml:space="preserve">
+    <value>"x":444,"y":276,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_anx_friend_down" xml:space="preserve">
+    <value>"x":458,"y":50,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_anx_friend_up" xml:space="preserve">
+    <value>"x":454,"y":0,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_anx_mail_down" xml:space="preserve">
+    <value>"x":436,"y":140,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_anx_mail_up" xml:space="preserve">
+    <value>"x":88,"y":376,"w":48,"h":48</value>
+  </data>
+  <data name="s_main_armed_down" xml:space="preserve">
+    <value>"x":0,"y":415,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_armed_up" xml:space="preserve">
+    <value>"x":176,"y":420,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_arrow_down" xml:space="preserve">
+    <value>"x":62,"y":347,"w":22,"h":66</value>
+  </data>
+  <data name="s_main_arrow_up" xml:space="preserve">
+    <value>"x":486,"y":136,"w":22,"h":28</value>
+  </data>
+  <data name="s_main_chat_emoji" xml:space="preserve">
+    <value>"x":480,"y":190,"w":30,"h":30</value>
+  </data>
+  <data name="s_main_city_down" xml:space="preserve">
+    <value>"x":220,"y":315,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_city_up" xml:space="preserve">
+    <value>"x":176,"y":315,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_cp_bg" xml:space="preserve">
+    <value>"x":0,"y":266,"w":208,"h":16</value>
+  </data>
+  <data name="s_main_cp_icon" xml:space="preserve">
+    <value>"x":486,"y":166,"w":21,"h":22</value>
+  </data>
+  <data name="s_main_discord_down" xml:space="preserve">
+    <value>"x":44,"y":459,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_discord_up" xml:space="preserve">
+    <value>"x":0,"y":459,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_exp_thumb" xml:space="preserve">
+    <value>"x":0,"y":299,"w":220,"h":14</value>
+  </data>
+  <data name="s_main_exp_track" xml:space="preserve">
+    <value>"x":214,"y":281,"w":222,"h":16</value>
+  </data>
+  <data name="s_main_map_bg" xml:space="preserve">
+    <value>"x":304,"y":206,"w":92,"h":44</value>
+  </data>
+  <data name="s_main_map_go" xml:space="preserve">
+    <value>"x":230,"y":140,"w":72,"h":68</value>
+  </data>
+  <data name="s_main_nav_bg_1" xml:space="preserve">
+    <value>"x":0,"y":116,"w":76,"h":82</value>
+  </data>
+  <data name="s_main_nav_bg_dec_1" xml:space="preserve">
+    <value>"x":0,"y":72,"w":250,"h":42</value>
+  </data>
+  <data name="s_main_nav_bg_dec_2" xml:space="preserve">
+    <value>"x":214,"y":252,"w":138,"h":27</value>
+  </data>
+  <data name="s_main_nav_bg_dec_3" xml:space="preserve">
+    <value>"x":398,"y":206,"w":80,"h":36</value>
+  </data>
+  <data name="s_main_nav_btn_down" xml:space="preserve">
+    <value>"x":0,"y":200,"w":64,"h":64</value>
+  </data>
+  <data name="s_main_nav_btn_up" xml:space="preserve">
+    <value>"x":370,"y":140,"w":64,"h":64</value>
+  </data>
+  <data name="s_main_nav_zoom" xml:space="preserve">
+    <value>"x":356,"y":0,"w":96,"h":96</value>
+  </data>
+  <data name="s_main_quest_title" xml:space="preserve">
+    <value>"x":252,"y":98,"w":204,"h":40</value>
+  </data>
+  <data name="s_main_role_bg" xml:space="preserve">
+    <value>"x":0,"y":0,"w":354,"h":70</value>
+  </data>
+  <data name="s_main_role_face_bg" xml:space="preserve">
+    <value>"x":78,"y":192,"w":68,"h":68</value>
+  </data>
+  <data name="s_main_setting_down" xml:space="preserve">
+    <value>"x":44,"y":415,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_setting_up" xml:space="preserve">
+    <value>"x":88,"y":426,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_spec_btn_down" xml:space="preserve">
+    <value>"x":78,"y":116,"w":74,"h":74</value>
+  </data>
+  <data name="s_main_spec_btn_up" xml:space="preserve">
+    <value>"x":154,"y":116,"w":74,"h":74</value>
+  </data>
+  <data name="s_main_sta_thumb" xml:space="preserve">
+    <value>"x":222,"y":299,"w":220,"h":14</value>
+  </data>
+  <data name="s_main_sub_btn_down" xml:space="preserve">
+    <value>"x":304,"y":140,"w":64,"h":64</value>
+  </data>
+  <data name="s_main_sub_btn_up" xml:space="preserve">
+    <value>"x":148,"y":192,"w":64,"h":64</value>
+  </data>
+  <data name="s_main_sub_zoom" xml:space="preserve">
+    <value>"x":458,"y":100,"w":34,"h":34</value>
+  </data>
+  <data name="s_main_time_bg" xml:space="preserve">
+    <value>"x":182,"y":376,"w":60,"h":26</value>
+  </data>
+  <data name="s_main_unarmed_down" xml:space="preserve">
+    <value>"x":88,"y":315,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_unarmed_up" xml:space="preserve">
+    <value>"x":132,"y":315,"w":42,"h":42</value>
+  </data>
+  <data name="s_main_vip_down" xml:space="preserve">
+    <value>"x":398,"y":244,"w":86,"h":30</value>
+  </data>
+  <data name="s_main_vip_txt_down" xml:space="preserve">
+    <value>"x":436,"y":190,"w":36,"h":13</value>
+  </data>
+  <data name="s_main_vip_txt_up" xml:space="preserve">
+    <value>"x":252,"y":72,"w":36,"h":13</value>
+  </data>
+  <data name="s_main_vip_up" xml:space="preserve">
+    <value>"x":0,"y":315,"w":86,"h":30</value>
+  </data>
+  <data name="s_nav_icon_10_down" xml:space="preserve">
+    <value>"x":782,"y":66,"w":60,"h":61</value>
+  </data>
+  <data name="s_nav_icon_10_up" xml:space="preserve">
+    <value>"x":720,"y":66,"w":60,"h":61</value>
+  </data>
+  <data name="s_nav_icon_11_down" xml:space="preserve">
+    <value>"x":262,"y":63,"w":64,"h":60</value>
+  </data>
+  <data name="s_nav_icon_11_up" xml:space="preserve">
+    <value>"x":910,"y":62,"w":64,"h":60</value>
+  </data>
+  <data name="s_nav_icon_12_down" xml:space="preserve">
+    <value>"x":242,"y":366,"w":60,"h":53</value>
+  </data>
+  <data name="s_nav_icon_12_up" xml:space="preserve">
+    <value>"x":0,"y":191,"w":60,"h":53</value>
+  </data>
+  <data name="s_nav_icon_13_down" xml:space="preserve">
+    <value>"x":562,"y":304,"w":63,"h":53</value>
+  </data>
+  <data name="s_nav_icon_13_up" xml:space="preserve">
+    <value>"x":372,"y":304,"w":63,"h":53</value>
+  </data>
+  <data name="s_nav_icon_14_down" xml:space="preserve">
+    <value>"x":244,"y":307,"w":58,"h":57</value>
+  </data>
+  <data name="s_nav_icon_14_up" xml:space="preserve">
+    <value>"x":771,"y":304,"w":58,"h":57</value>
+  </data>
+  <data name="s_nav_icon_15_down" xml:space="preserve">
+    <value>"x":590,"y":0,"w":62,"h":62</value>
+  </data>
+  <data name="s_nav_icon_15_up" xml:space="preserve">
+    <value>"x":526,"y":0,"w":62,"h":62</value>
+  </data>
+  <data name="s_nav_icon_16_down" xml:space="preserve">
+    <value>"x":460,"y":0,"w":64,"h":61</value>
+  </data>
+  <data name="s_nav_icon_16_up" xml:space="preserve">
+    <value>"x":394,"y":0,"w":64,"h":61</value>
+  </data>
+  <data name="s_nav_icon_17_down" xml:space="preserve">
+    <value>"x":193,"y":184,"w":64,"h":56</value>
+  </data>
+  <data name="s_nav_icon_17_up" xml:space="preserve">
+    <value>"x":127,"y":184,"w":64,"h":56</value>
+  </data>
+  <data name="s_nav_icon_18_down" xml:space="preserve">
+    <value>"x":782,"y":0,"w":60,"h":64</value>
+  </data>
+  <data name="s_nav_icon_18_up" xml:space="preserve">
+    <value>"x":720,"y":0,"w":60,"h":64</value>
+  </data>
+  <data name="s_nav_icon_19_down" xml:space="preserve">
+    <value>"x":390,"y":63,"w":60,"h":63</value>
+  </data>
+  <data name="s_nav_icon_19_up" xml:space="preserve">
+    <value>"x":328,"y":63,"w":60,"h":63</value>
+  </data>
+  <data name="s_nav_icon_1_down" xml:space="preserve">
+    <value>"x":179,"y":410,"w":53,"h":57</value>
+  </data>
+  <data name="s_nav_icon_1_up" xml:space="preserve">
+    <value>"x":675,"y":409,"w":53,"h":57</value>
+  </data>
+  <data name="s_nav_icon_201_down" xml:space="preserve">
+    <value>"x":62,"y":185,"w":60,"h":59</value>
+  </data>
+  <data name="s_nav_icon_201_up" xml:space="preserve">
+    <value>"x":442,"y":303,"w":58,"h":58</value>
+  </data>
+  <data name="s_nav_icon_202_down" xml:space="preserve">
+    <value>"x":908,"y":124,"w":60,"h":60</value>
+  </data>
+  <data name="s_nav_icon_202_up" xml:space="preserve">
+    <value>"x":845,"y":301,"w":58,"h":58</value>
+  </data>
+  <data name="s_nav_icon_203_down" xml:space="preserve">
+    <value>"x":0,"y":130,"w":60,"h":59</value>
+  </data>
+  <data name="s_nav_icon_203_up" xml:space="preserve">
+    <value>"x":0,"y":303,"w":58,"h":58</value>
+  </data>
+  <data name="s_nav_icon_204_down" xml:space="preserve">
+    <value>"x":654,"y":62,"w":64,"h":60</value>
+  </data>
+  <data name="s_nav_icon_204_up" xml:space="preserve">
+    <value>"x":194,"y":66,"w":64,"h":58</value>
+  </data>
+  <data name="s_nav_icon_205_down" xml:space="preserve">
+    <value>"x":259,"y":184,"w":60,"h":59</value>
+  </data>
+  <data name="s_nav_icon_205_up" xml:space="preserve">
+    <value>"x":502,"y":303,"w":58,"h":58</value>
+  </data>
+  <data name="s_nav_icon_20_down" xml:space="preserve">
+    <value>"x":654,"y":0,"w":64,"h":60</value>
+  </data>
+  <data name="s_nav_icon_20_up" xml:space="preserve">
+    <value>"x":844,"y":62,"w":64,"h":60</value>
+  </data>
+  <data name="s_nav_icon_2_down" xml:space="preserve">
+    <value>"x":60,"y":371,"w":53,"h":57</value>
+  </data>
+  <data name="s_nav_icon_2_up" xml:space="preserve">
+    <value>"x":620,"y":370,"w":53,"h":57</value>
+  </data>
+  <data name="s_nav_icon_3_down" xml:space="preserve">
+    <value>"x":0,"y":420,"w":52,"h":54</value>
+  </data>
+  <data name="s_nav_icon_3_up" xml:space="preserve">
+    <value>"x":558,"y":418,"w":52,"h":54</value>
+  </data>
+  <data name="s_nav_icon_4_down" xml:space="preserve">
+    <value>"x":834,"y":185,"w":59,"h":60</value>
+  </data>
+  <data name="s_nav_icon_4_up" xml:space="preserve">
+    <value>"x":589,"y":185,"w":59,"h":60</value>
+  </data>
+  <data name="s_nav_icon_5_down" xml:space="preserve">
+    <value>"x":781,"y":247,"w":62,"h":55</value>
+  </data>
+  <data name="s_nav_icon_5_up" xml:space="preserve">
+    <value>"x":570,"y":247,"w":62,"h":55</value>
+  </data>
+  <data name="s_nav_icon_6_down" xml:space="preserve">
+    <value>"x":384,"y":186,"w":61,"h":58</value>
+  </data>
+  <data name="s_nav_icon_6_up" xml:space="preserve">
+    <value>"x":321,"y":186,"w":61,"h":58</value>
+  </data>
+  <data name="s_nav_icon_7_down" xml:space="preserve">
+    <value>"x":179,"y":355,"w":61,"h":53</value>
+  </data>
+  <data name="s_nav_icon_7_up" xml:space="preserve">
+    <value>"x":961,"y":312,"w":61,"h":53</value>
+  </data>
+  <data name="s_nav_icon_8_down" xml:space="preserve">
+    <value>"x":0,"y":66,"w":60,"h":62</value>
+  </data>
+  <data name="s_nav_icon_8_up" xml:space="preserve">
+    <value>"x":576,"y":64,"w":60,"h":62</value>
+  </data>
+  <data name="s_nav_icon_9_down" xml:space="preserve">
+    <value>"x":659,"y":518,"w":46,"h":46</value>
+  </data>
+  <data name="s_nav_icon_9_up" xml:space="preserve">
+    <value>"x":464,"y":518,"w":46,"h":46</value>
+  </data>
+  <data name="s_play_icon_11_down" xml:space="preserve">
+    <value>"x":413,"y":470,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_11_up" xml:space="preserve">
+    <value>"x":105,"y":470,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_12_down" xml:space="preserve">
+    <value>"x":166,"y":469,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_12_up" xml:space="preserve">
+    <value>"x":663,"y":468,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_13_down" xml:space="preserve">
+    <value>"x":54,"y":430,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_13_up" xml:space="preserve">
+    <value>"x":612,"y":429,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_14_down" xml:space="preserve">
+    <value>"x":0,"y":476,"w":45,"h":48</value>
+  </data>
+  <data name="s_play_icon_14_up" xml:space="preserve">
+    <value>"x":565,"y":474,"w":45,"h":48</value>
+  </data>
+  <data name="s_play_icon_15_down" xml:space="preserve">
+    <value>"x":860,"y":425,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_15_up" xml:space="preserve">
+    <value>"x":285,"y":424,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_16_down" xml:space="preserve">
+    <value>"x":217,"y":471,"w":48,"h":48</value>
+  </data>
+  <data name="s_play_icon_16_up" xml:space="preserve">
+    <value>"x":845,"y":247,"w":48,"h":48</value>
+  </data>
+  <data name="s_play_icon_17_down" xml:space="preserve">
+    <value>"x":946,"y":423,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_17_up" xml:space="preserve">
+    <value>"x":730,"y":423,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_18_down" xml:space="preserve">
+    <value>"x":267,"y":474,"w":46,"h":48</value>
+  </data>
+  <data name="s_play_icon_18_up" xml:space="preserve">
+    <value>"x":960,"y":473,"w":46,"h":48</value>
+  </data>
+  <data name="s_play_icon_19_down" xml:space="preserve">
+    <value>"x":234,"y":421,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_19_up" xml:space="preserve">
+    <value>"x":809,"y":420,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_20_down" xml:space="preserve">
+    <value>"x":156,"y":519,"w":44,"h":48</value>
+  </data>
+  <data name="s_play_icon_20_up" xml:space="preserve">
+    <value>"x":765,"y":518,"w":44,"h":48</value>
+  </data>
+  <data name="s_play_icon_21_down" xml:space="preserve">
+    <value>"x":464,"y":420,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_21_up" xml:space="preserve">
+    <value>"x":413,"y":420,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_22_down" xml:space="preserve">
+    <value>"x":834,"y":475,"w":46,"h":47</value>
+  </data>
+  <data name="s_play_icon_22_up" xml:space="preserve">
+    <value>"x":517,"y":474,"w":46,"h":47</value>
+  </data>
+  <data name="s_play_icon_23_down" xml:space="preserve">
+    <value>"x":47,"y":480,"w":45,"h":48</value>
+  </data>
+  <data name="s_play_icon_23_up" xml:space="preserve">
+    <value>"x":612,"y":479,"w":45,"h":48</value>
+  </data>
+  <data name="s_play_icon_24_down" xml:space="preserve">
+    <value>"x":512,"y":523,"w":44,"h":45</value>
+  </data>
+  <data name="s_play_icon_24_up" xml:space="preserve">
+    <value>"x":707,"y":522,"w":44,"h":45</value>
+  </data>
+  <data name="s_play_icon_25_down" xml:space="preserve">
+    <value>"x":315,"y":522,"w":42,"h":48</value>
+  </data>
+  <data name="s_play_icon_25_up" xml:space="preserve">
+    <value>"x":202,"y":521,"w":42,"h":48</value>
+  </data>
+  <data name="s_play_icon_26_down" xml:space="preserve">
+    <value>"x":911,"y":473,"w":47,"h":48</value>
+  </data>
+  <data name="s_play_icon_26_up" xml:space="preserve">
+    <value>"x":589,"y":128,"w":47,"h":48</value>
+  </data>
+  <data name="s_play_icon_27_down" xml:space="preserve">
+    <value>"x":714,"y":473,"w":49,"h":47</value>
+  </data>
+  <data name="s_play_icon_27_up" xml:space="preserve">
+    <value>"x":336,"y":473,"w":49,"h":47</value>
+  </data>
+  <data name="s_play_icon_28_down" xml:space="preserve">
+    <value>"x":976,"y":51,"w":46,"h":49</value>
+  </data>
+  <data name="s_play_icon_28_up" xml:space="preserve">
+    <value>"x":976,"y":0,"w":46,"h":49</value>
+  </data>
+  <data name="s_play_icon_29_down" xml:space="preserve">
+    <value>"x":115,"y":420,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_29_up" xml:space="preserve">
+    <value>"x":781,"y":187,"w":49,"h":48</value>
+  </data>
+  <data name="s_play_icon_30_down" xml:space="preserve">
+    <value>"x":781,"y":470,"w":51,"h":46</value>
+  </data>
+  <data name="s_play_icon_30_up" xml:space="preserve">
+    <value>"x":464,"y":470,"w":51,"h":46</value>
+  </data>
+  <data name="s_plus_1" xml:space="preserve">
+    <value>"x":372,"y":228,"w":48,"h":48</value>
+  </data>
+  <data name="s_pnl_bg_1" xml:space="preserve">
+    <value>"x":0,"y":482,"w":70,"h":50</value>
+  </data>
+  <data name="s_pnl_bg_10" xml:space="preserve">
+    <value>"x":42,"y":616,"w":40,"h":40</value>
+  </data>
+  <data name="s_pnl_bg_2" xml:space="preserve">
+    <value>"x":268,"y":114,"w":70,"h":70</value>
+  </data>
+  <data name="s_pnl_bg_3" xml:space="preserve">
+    <value>"x":0,"y":376,"w":100,"h":100</value>
+  </data>
+  <data name="s_pnl_bg_4" xml:space="preserve">
+    <value>"x":42,"y":102,"w":100,"h":100</value>
+  </data>
+  <data name="s_pnl_bg_5" xml:space="preserve">
+    <value>"x":0,"y":272,"w":102,"h":102</value>
+  </data>
+  <data name="s_pnl_bg_6" xml:space="preserve">
+    <value>"x":380,"y":482,"w":80,"h":50</value>
+  </data>
+  <data name="s_pnl_bg_7" xml:space="preserve">
+    <value>"x":338,"y":394,"w":40,"h":110</value>
+  </data>
+  <data name="s_pnl_bg_8" xml:space="preserve">
+    <value>"x":42,"y":0,"w":100,"h":100</value>
+  </data>
+  <data name="s_pnl_bg_9" xml:space="preserve">
+    <value>"x":0,"y":0,"w":40,"h":270</value>
+  </data>
+  <data name="s_pnl_head_1" xml:space="preserve">
+    <value>"x":358,"y":582,"w":40,"h":46</value>
+  </data>
+  <data name="s_pnl_head_2" xml:space="preserve">
+    <value>"x":468,"y":300,"w":42,"h":44</value>
+  </data>
+  <data name="s_pnl_head_3" xml:space="preserve">
+    <value>"x":52,"y":582,"w":50,"h":32</value>
+  </data>
+  <data name="s_pnl_ss_1" xml:space="preserve">
+    <value>"x":276,"y":541,"w":20,"h":12</value>
+  </data>
+  <data name="s_pnl_title_1" xml:space="preserve">
+    <value>"x":228,"y":0,"w":100,"h":55</value>
+  </data>
+  <data name="s_pnl_title_2" xml:space="preserve">
+    <value>"x":268,"y":57,"w":100,"h":55</value>
+  </data>
+  <data name="s_pnl_title_sub_1" xml:space="preserve">
+    <value>"x":72,"y":488,"w":80,"h":36</value>
+  </data>
+  <data name="s_pnl_title_sub_2" xml:space="preserve">
+    <value>"x":104,"y":312,"w":238,"h":27</value>
+  </data>
+  <data name="s_pnl_title_sub_3" xml:space="preserve">
+    <value>"x":198,"y":224,"w":50,"h":32</value>
+  </data>
+  <data name="s_pnl_title_sub_4" xml:space="preserve">
+    <value>"x":200,"y":482,"w":100,"h":30</value>
+  </data>
+  <data name="s_pnl_title_sub_5" xml:space="preserve">
+    <value>"x":198,"y":186,"w":160,"h":36</value>
+  </data>
+  <data name="s_prg_thumb_3" xml:space="preserve">
+    <value>"x":438,"y":106,"w":40,"h":4</value>
+  </data>
+  <data name="s_prg_track_1" xml:space="preserve">
+    <value>"x":388,"y":350,"w":72,"h":8</value>
+  </data>
+  <data name="s_prg_track_2" xml:space="preserve">
+    <value>"x":380,"y":459,"w":50,"h":20</value>
+  </data>
+  <data name="s_prg_track_3" xml:space="preserve">
+    <value>"x":42,"y":258,"w":50,"h":10</value>
+  </data>
+  <data name="s_rdo_1_disabled" xml:space="preserve">
+    <value>"x":430,"y":620,"w":20,"h":20</value>
+  </data>
+  <data name="s_rdo_1_selected" xml:space="preserve">
+    <value>"x":416,"y":90,"w":20,"h":20</value>
+  </data>
+  <data name="s_rdo_1_up" xml:space="preserve">
+    <value>"x":430,"y":642,"w":20,"h":20</value>
+  </data>
+  <data name="s_res_1001" xml:space="preserve">
+    <value>"x":462,"y":459,"w":48,"h":49</value>
+  </data>
+  <data name="s_res_1002" xml:space="preserve">
+    <value>"x":444,"y":156,"w":57,"h":53</value>
+  </data>
+  <data name="s_res_1003" xml:space="preserve">
+    <value>"x":302,"y":506,"w":58,"h":50</value>
+  </data>
+  <data name="s_res_1004" xml:space="preserve">
+    <value>"x":322,"y":586,"w":34,"h":49</value>
+  </data>
+  <data name="s_res_bg_1" xml:space="preserve">
+    <value>"x":276,"y":558,"w":80,"h":26</value>
+  </data>
+  <data name="s_res_bg_2" xml:space="preserve">
+    <value>"x":358,"y":630,"w":70,"h":26</value>
+  </data>
+  <data name="s_sign_boss" xml:space="preserve">
+    <value>"x":302,"y":482,"w":32,"h":22</value>
+  </data>
+  <data name="s_spec_icon_10_down" xml:space="preserve">
+    <value>"x":910,"y":0,"w":64,"h":60</value>
+  </data>
+  <data name="s_spec_icon_10_up" xml:space="preserve">
+    <value>"x":844,"y":0,"w":64,"h":60</value>
+  </data>
+  <data name="s_spec_icon_11_down" xml:space="preserve">
+    <value>"x":325,"y":128,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_11_up" xml:space="preserve">
+    <value>"x":193,"y":126,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_12_down" xml:space="preserve">
+    <value>"x":127,"y":126,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_12_up" xml:space="preserve">
+    <value>"x":768,"y":129,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_13_down" xml:space="preserve">
+    <value>"x":715,"y":244,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_13_up" xml:space="preserve">
+    <value>"x":190,"y":242,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_14_down" xml:space="preserve">
+    <value>"x":128,"y":66,"w":64,"h":58</value>
+  </data>
+  <data name="s_spec_icon_14_up" xml:space="preserve">
+    <value>"x":62,"y":66,"w":64,"h":58</value>
+  </data>
+  <data name="s_spec_icon_15_down" xml:space="preserve">
+    <value>"x":457,"y":128,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_15_up" xml:space="preserve">
+    <value>"x":391,"y":128,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_16_down" xml:space="preserve">
+    <value>"x":702,"y":129,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_16_up" xml:space="preserve">
+    <value>"x":523,"y":128,"w":64,"h":56</value>
+  </data>
+  <data name="s_spec_icon_17_down" xml:space="preserve">
+    <value>"x":0,"y":246,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_17_up" xml:space="preserve">
+    <value>"x":895,"y":244,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_18_down" xml:space="preserve">
+    <value>"x":363,"y":411,"w":48,"h":60</value>
+  </data>
+  <data name="s_spec_icon_18_up" xml:space="preserve">
+    <value>"x":970,"y":124,"w":48,"h":60</value>
+  </data>
+  <data name="s_spec_icon_19_down" xml:space="preserve">
+    <value>"x":60,"y":312,"w":57,"h":57</value>
+  </data>
+  <data name="s_spec_icon_19_up" xml:space="preserve">
+    <value>"x":627,"y":311,"w":57,"h":57</value>
+  </data>
+  <data name="s_spec_icon_1_down" xml:space="preserve">
+    <value>"x":387,"y":520,"w":45,"h":45</value>
+  </data>
+  <data name="s_spec_icon_1_up" xml:space="preserve">
+    <value>"x":94,"y":520,"w":45,"h":45</value>
+  </data>
+  <data name="s_spec_icon_20_down" xml:space="preserve">
+    <value>"x":260,"y":125,"w":63,"h":57</value>
+  </data>
+  <data name="s_spec_icon_20_up" xml:space="preserve">
+    <value>"x":62,"y":126,"w":63,"h":57</value>
+  </data>
+  <data name="s_spec_icon_21_down" xml:space="preserve">
+    <value>"x":372,"y":359,"w":64,"h":50</value>
+  </data>
+  <data name="s_spec_icon_21_up" xml:space="preserve">
+    <value>"x":686,"y":357,"w":64,"h":50</value>
+  </data>
+  <data name="s_spec_icon_22_down" xml:space="preserve">
+    <value>"x":844,"y":124,"w":62,"h":59</value>
+  </data>
+  <data name="s_spec_icon_22_up" xml:space="preserve">
+    <value>"x":638,"y":124,"w":62,"h":59</value>
+  </data>
+  <data name="s_spec_icon_24_down" xml:space="preserve">
+    <value>"x":66,"y":0,"w":64,"h":64</value>
+  </data>
+  <data name="s_spec_icon_24_up" xml:space="preserve">
+    <value>"x":0,"y":0,"w":64,"h":64</value>
+  </data>
+  <data name="s_spec_icon_25_down" xml:space="preserve">
+    <value>"x":706,"y":301,"w":63,"h":54</value>
+  </data>
+  <data name="s_spec_icon_25_up" xml:space="preserve">
+    <value>"x":179,"y":299,"w":63,"h":54</value>
+  </data>
+  <data name="s_spec_icon_26_down" xml:space="preserve">
+    <value>"x":831,"y":361,"w":56,"h":57</value>
+  </data>
+  <data name="s_spec_icon_26_up" xml:space="preserve">
+    <value>"x":562,"y":359,"w":56,"h":57</value>
+  </data>
+  <data name="s_spec_icon_27_down" xml:space="preserve">
+    <value>"x":256,"y":245,"w":58,"h":60</value>
+  </data>
+  <data name="s_spec_icon_27_up" xml:space="preserve">
+    <value>"x":961,"y":186,"w":58,"h":60</value>
+  </data>
+  <data name="s_spec_icon_28_down" xml:space="preserve">
+    <value>"x":510,"y":186,"w":61,"h":58</value>
+  </data>
+  <data name="s_spec_icon_28_up" xml:space="preserve">
+    <value>"x":447,"y":186,"w":61,"h":58</value>
+  </data>
+  <data name="s_spec_icon_29_down" xml:space="preserve">
+    <value>"x":66,"y":246,"w":54,"h":64</value>
+  </data>
+  <data name="s_spec_icon_29_up" xml:space="preserve">
+    <value>"x":650,"y":245,"w":54,"h":64</value>
+  </data>
+  <data name="s_spec_icon_2_down" xml:space="preserve">
+    <value>"x":379,"y":246,"w":61,"h":56</value>
+  </data>
+  <data name="s_spec_icon_2_up" xml:space="preserve">
+    <value>"x":316,"y":246,"w":61,"h":56</value>
+  </data>
+  <data name="s_spec_icon_30_down" xml:space="preserve">
+    <value>"x":124,"y":242,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_30_up" xml:space="preserve">
+    <value>"x":715,"y":187,"w":64,"h":55</value>
+  </data>
+  <data name="s_spec_icon_31_down" xml:space="preserve">
+    <value>"x":119,"y":363,"w":58,"h":55</value>
+  </data>
+  <data name="s_spec_icon_31_up" xml:space="preserve">
+    <value>"x":0,"y":363,"w":58,"h":55</value>
+  </data>
+  <data name="s_spec_icon_32_down" xml:space="preserve">
+    <value>"x":328,"y":0,"w":64,"h":61</value>
+  </data>
+  <data name="s_spec_icon_32_up" xml:space="preserve">
+    <value>"x":262,"y":0,"w":64,"h":61</value>
+  </data>
+  <data name="s_spec_icon_33_down" xml:space="preserve">
+    <value>"x":498,"y":363,"w":58,"h":55</value>
+  </data>
+  <data name="s_spec_icon_33_up" xml:space="preserve">
+    <value>"x":438,"y":363,"w":58,"h":55</value>
+  </data>
+  <data name="s_spec_icon_34_down" xml:space="preserve">
+    <value>"x":452,"y":63,"w":60,"h":62</value>
+  </data>
+  <data name="s_spec_icon_34_up" xml:space="preserve">
+    <value>"x":514,"y":64,"w":60,"h":62</value>
+  </data>
+  <data name="s_spec_icon_3_down" xml:space="preserve">
+    <value>"x":197,"y":0,"w":63,"h":64</value>
+  </data>
+  <data name="s_spec_icon_3_up" xml:space="preserve">
+    <value>"x":132,"y":0,"w":63,"h":64</value>
+  </data>
+  <data name="s_spec_icon_4_down" xml:space="preserve">
+    <value>"x":316,"y":304,"w":54,"h":62</value>
+  </data>
+  <data name="s_spec_icon_4_up" xml:space="preserve">
+    <value>"x":905,"y":301,"w":54,"h":62</value>
+  </data>
+  <data name="s_spec_icon_5_down" xml:space="preserve">
+    <value>"x":650,"y":187,"w":63,"h":56</value>
+  </data>
+  <data name="s_spec_icon_5_up" xml:space="preserve">
+    <value>"x":895,"y":186,"w":63,"h":56</value>
+  </data>
+  <data name="s_spec_icon_6_down" xml:space="preserve">
+    <value>"x":304,"y":368,"w":57,"h":54</value>
+  </data>
+  <data name="s_spec_icon_6_up" xml:space="preserve">
+    <value>"x":946,"y":367,"w":57,"h":54</value>
+  </data>
+  <data name="s_spec_icon_7_down" xml:space="preserve">
+    <value>"x":889,"y":365,"w":55,"h":58</value>
+  </data>
+  <data name="s_spec_icon_7_up" xml:space="preserve">
+    <value>"x":752,"y":363,"w":55,"h":58</value>
+  </data>
+  <data name="s_spec_icon_8_down" xml:space="preserve">
+    <value>"x":506,"y":246,"w":62,"h":55</value>
+  </data>
+  <data name="s_spec_icon_8_up" xml:space="preserve">
+    <value>"x":442,"y":246,"w":62,"h":55</value>
+  </data>
+  <data name="s_spec_icon_9_down" xml:space="preserve">
+    <value>"x":122,"y":299,"w":55,"h":62</value>
+  </data>
+  <data name="s_spec_icon_9_up" xml:space="preserve">
+    <value>"x":961,"y":248,"w":55,"h":62</value>
+  </data>
+  <data name="s_srl_thumb_1" xml:space="preserve">
+    <value>"x":360,"y":186,"w":9,"h":32</value>
+  </data>
+  <data name="s_srl_thumb_2" xml:space="preserve">
+    <value>"x":208,"y":544,"w":9,"h":32</value>
+  </data>
+  <data name="s_star_1" xml:space="preserve">
+    <value>"x":0,"y":586,"w":40,"h":40</value>
+  </data>
+  <data name="s_star_2" xml:space="preserve">
+    <value>"x":226,"y":514,"w":48,"h":46</value>
+  </data>
+  <data name="s_star_aw_1" xml:space="preserve">
+    <value>"x":104,"y":582,"w":40,"h":40</value>
+  </data>
+  <data name="s_star_bg_1" xml:space="preserve">
+    <value>"x":462,"y":0,"w":40,"h":40</value>
+  </data>
+  <data name="s_star_bg_2" xml:space="preserve">
+    <value>"x":462,"y":510,"w":48,"h":46</value>
+  </data>
+  <data name="s_tag_acquired" xml:space="preserve">
+    <value>"x":102,"y":376,"w":122,"h":68</value>
+  </data>
+  <data name="s_tag_not_reach" xml:space="preserve">
+    <value>"x":344,"y":310,"w":122,"h":38</value>
+  </data>
+  <data name="s_tick_1" xml:space="preserve">
+    <value>"x":276,"y":586,"w":44,"h":44</value>
+  </data>
+  <data name="s_time_icon_fake" xml:space="preserve">
+    <value>f_301220201538.bin</value>
+  </data>
+  <data name="s_txt_1" xml:space="preserve">
+    <value>"x":154,"y":488,"w":42,"h":32</value>
+  </data>
+  <data name="s_txt_edit_1" xml:space="preserve">
+    <value>"x":169,"y":634,"w":24,"h":24</value>
+  </data>
+  <data name="s_txt_vip_1" xml:space="preserve">
+    <value>"x":468,"y":346,"w":26,"h":24</value>
+  </data>
+</root>

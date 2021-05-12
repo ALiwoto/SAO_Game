@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{555E97E6-8CA2-4CA1-9C59-79D8629AE2C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SAO</RootNamespace>
+    <AssemblyName>SAO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\mrwoto\Programming\Project\SAO\BackUp\1.1.1.5014\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon-android-512.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A3ADDF6D7AB3E452D2A949FA7B3D13026BC85657</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SAO_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet />
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Octokit, Version=0.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Octokit.0.48.0\lib\net46\Octokit.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.4.2.0\lib\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.Direct3D9.4.2.0\lib\net45\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.DXGI.4.2.0\lib\net45\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.Mathematics.4.2.0\lib\net45\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.MediaFoundation, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.MediaFoundation.4.2.0\lib\net45\SharpDX.MediaFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XAudio2, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.XAudio2.4.2.0\lib\net45\SharpDX.XAudio2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WotoProvider">
+      <HintPath>..\WotoProvider\bin\Debug\WotoProvider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\GameClient.cs" />
+    <Compile Include="Client\GameClient.Designer.cs">
+      <DependentUpon>GameClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constants\ThereIsConstants.cs" />
+    <Compile Include="Controls\Animation\AnimationCompaniesList.cs" />
+    <Compile Include="Controls\Animation\AnimationCompanies\DreamWorks.cs" />
+    <Compile Include="Controls\Animation\AnimationCompanies\DreamWorks.Designer.cs">
+      <DependentUpon>DreamWorks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Animation\AnimationCompanies\Pixar.cs" />
+    <Compile Include="Controls\Animation\AnimationCompanies\ToeiAnimation.cs" />
+    <Compile Include="Controls\Animation\AnimationCompanies\WaltDisney.cs" />
+    <Compile Include="Controls\Animation\AnimationCompany.cs" />
+    <Compile Include="Controls\Animation\AnimationCompany.Designer.cs">
+      <DependentUpon>AnimationCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Assets\Icons\Basis_Icons.cs" />
+    <Compile Include="Controls\Assets\Icons\Chat_Icons.cs" />
+    <Compile Include="Controls\Assets\Icons\FakeIcons.cs" />
+    <Compile Include="Controls\Assets\Icons\GameIcon.cs" />
+    <Compile Include="Controls\Assets\Icons\GameIcon.Designer.cs">
+      <DependentUpon>GameIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Assets\Icons\Game_Main_Icons.cs" />
+    <Compile Include="Controls\Assets\Icons\Main_Icons.cs" />
+    <Compile Include="Controls\ElementMovements.cs" />
+    <Compile Include="Controls\Elements\ChatElements\ChatElement.cs" />
+    <Compile Include="Controls\Elements\ChatElements\ChatElement.Designer.cs">
+      <DependentUpon>ChatElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Elements\GraphicElements.cs" />
+    <Compile Include="Controls\Elements\GraphicElements.Designer.cs">
+      <DependentUpon>GraphicElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Elements\MapElements\MapElement.cs" />
+    <Compile Include="Controls\Elements\MapElements\MapElement.Designer.cs">
+      <DependentUpon>MapElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IMoveable.cs" />
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatBackgroundLabel.cs" />
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatBackgroundLabel.Designer.cs">
+      <DependentUpon>GameControls.ChatBackgroundLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatBarLabel.cs" />
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatBarLabel.Designer.cs">
+      <DependentUpon>GameControls.ChatBarLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatInputControl.cs" />
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatInputControl.Designer.cs">
+      <DependentUpon>GameControls.ChatInputControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\Chat\GameControls.ChatLabelControl.Designer.cs">
+      <DependentUpon>GameControls.ChatLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.CloseLabel.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.CloseLabel.Designer.cs">
+      <DependentUpon>GameControls.CloseLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.DialogBoxBackGround.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.DialogBoxBackGround.Designer.cs">
+      <DependentUpon>GameControls.DialogBoxBackGround.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.IconLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.IconLabelControl.Designer.cs">
+      <DependentUpon>GameControls.IconLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.InfoLabel.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.InfoLabel.Designer.cs">
+      <DependentUpon>GameControls.InfoLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.ItemBarLabelControl.Designer.cs">
+      <DependentUpon>GameControls.ItemBarLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.LabelBase.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.LabelBase.Designer.cs">
+      <DependentUpon>GameControls.LabelBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.LabelControlSpecies.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.MapElement.Designer.cs">
+      <DependentUpon>GameControls.MapElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.MapSigner.Designer.cs">
+      <DependentUpon>GameControls.MapSigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControls.PageControl.cs" />
+    <Compile Include="Controls\GameControls.PageControl.Designer.cs">
+      <DependentUpon>GameControls.PageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControls.PictureBoxControl.cs" />
+    <Compile Include="Controls\GameControls.PictureBoxControl.Designer.cs">
+      <DependentUpon>GameControls.PictureBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.MapSigner.cs" />
+    <Compile Include="Controls\LabelControls\Home\GameControls.HomeBarLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\Home\GameControls.HomeBarLabelControl.Designer.cs">
+      <DependentUpon>GameControls.HomeBarLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Home\GameControls.PlayerResourcesLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\Home\GameControls.PlayerResourcesLabelControl.Designer.cs">
+      <DependentUpon>GameControls.PlayerResourcesLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Home\GameControls.ProfileBarLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\Home\GameControls.ProfileBarLabelControl.Designer.cs">
+      <DependentUpon>GameControls.ProfileBarLabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingBackGroundLabel.Designer.cs">
+      <DependentUpon>GameControls.RankingBackGroundLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IAnimationFactory.cs" />
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingKindLabel.cs" />
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingKindLabel.Designer.cs">
+      <DependentUpon>GameControls.RankingKindLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingPlayerLabel.cs" />
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingPlayerLabel.Designer.cs">
+      <DependentUpon>GameControls.RankingPlayerLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThroneLabel.Designer.cs">
+      <DependentUpon>GameControls.ThroneLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThroneNameLabel.Designer.cs">
+      <DependentUpon>GameControls.ThroneNameLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThronePositionLabel.cs" />
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThroneLabel.cs" />
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThroneNameLabel.cs" />
+    <Compile Include="Controls\LabelControls\Throne\GameControls.ThronePositionLabel.Designer.cs">
+      <DependentUpon>GameControls.ThronePositionLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Music\Album.cs" />
+    <Compile Include="Controls\Music\AudioPlayerState.cs" />
+    <Compile Include="Controls\Music\LoopMode.cs" />
+    <Compile Include="Controls\Music\WotoAudioPlayer.cs" />
+    <Compile Include="Controls\Music\SoundPlayer.cs" />
+    <Compile Include="Controls\Music\SoundPlayer.Designer.cs">
+      <DependentUpon>SoundPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControls.TextBoxControl.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.MenuItem.cs" />
+    <Compile Include="Controls\GameControls.IParamControls.cs" />
+    <Compile Include="Controls\GameControls.ButtonControl.cs" />
+    <Compile Include="Controls\GameControls.ButtonControl.Designer.cs">
+      <DependentUpon>GameControls.ButtonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControls.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.LabelControl.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.LabelControl.designer.cs">
+      <DependentUpon>GameControls.LabelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelControls\GameControls.MenuItem.Designer.cs">
+      <DependentUpon>GameControls.MenuItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControls.TextBoxControl.Designer.cs">
+      <DependentUpon>GameControls.TextBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IRes.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.ItemBarLabelControl.cs" />
+    <Compile Include="Controls\LabelControls\GameControls.MapElement.cs" />
+    <Compile Include="Controls\Music\Musics.cs" />
+    <Compile Include="Controls\Music\wotoMusic.cs" />
+    <Compile Include="Controls\Music\wotoMusic.Designer.cs">
+      <DependentUpon>wotoMusic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Noises.cs" />
+    <Compile Include="Controls\LabelControls\Rankings\GameControls.RankingBackGroundLabel.cs" />
+    <Compile Include="Controls\Trigger.cs" />
+    <Compile Include="GameObjects\Characters\Character.cs" />
+    <Compile Include="GameObjects\Characters\Character.Designer.cs">
+      <DependentUpon>Character.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Characters\CharacterInfo.cs" />
+    <Compile Include="GameObjects\Characters\CharacterType.cs" />
+    <Compile Include="GameObjects\Characters\DialogBoxProvider.cs" />
+    <Compile Include="GameObjects\Characters\DialogBoxProvider.Designer.cs">
+      <DependentUpon>DialogBoxProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Characters\DialogContext.cs" />
+    <Compile Include="GameObjects\Characters\DialogEndedEventHandler.cs" />
+    <Compile Include="GameObjects\Characters\Dialogs.cs" />
+    <Compile Include="GameObjects\Characters\GameCharacters.cs" />
+    <Compile Include="GameObjects\Chatting\ChatBlockList.cs" />
+    <Compile Include="GameObjects\Chatting\ChatChannels.cs" />
+    <Compile Include="GameObjects\Chatting\ChatChannelStatus.cs" />
+    <Compile Include="GameObjects\Chatting\ChatConfiguration.cs" />
+    <Compile Include="GameObjects\Chatting\ChatManager.cs" />
+    <Compile Include="GameObjects\Chatting\ChatMessage.cs" />
+    <Compile Include="GameObjects\Chatting\ChatReloadedEventHandler.cs" />
+    <Compile Include="GameObjects\Chatting\ChatSentEventHandler.cs" />
+    <Compile Include="GameObjects\Chatting\ChatUpdateEventHandler.cs" />
+    <Compile Include="GameObjects\Chatting\MessageList.cs" />
+    <Compile Include="GameObjects\GameResources\PlayerResources.cs" />
+    <Compile Include="GameObjects\GameResources\Resources.cs" />
+    <Compile Include="Controls\GameGraphics\ColorW.cs" />
+    <Compile Include="GameObjects\Guilds\GuildPosition.cs" />
+    <Compile Include="GameObjects\Heroes\BattlingHero.cs" />
+    <Compile Include="GameObjects\Heroes\Hero.Designer.cs">
+      <DependentUpon>Hero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Heroes\HeroManager.cs" />
+    <Compile Include="GameObjects\Heroes\HeroSerialize.cs" />
+    <Compile Include="GameObjects\Heroes\HeroSkill.cs" />
+    <Compile Include="GameObjects\Heroes\Skill.cs" />
+    <Compile Include="GameObjects\Heroes\SkillRate.cs" />
+    <Compile Include="GameObjects\Item\ItemBase.cs" />
+    <Compile Include="GameObjects\Item\Items.cs" />
+    <Compile Include="GameObjects\Kingdoms\KingdomInfo.cs" />
+    <Compile Include="GameObjects\Kingdoms\KingdomRankings.cs" />
+    <Compile Include="GameObjects\Kingdoms\KingdomThrone.cs" />
+    <Compile Include="GameObjects\Kingdoms\LevelRankings.cs" />
+    <Compile Include="GameObjects\Kingdoms\PowerRankings.cs" />
+    <Compile Include="GameObjects\Kingdoms\Rankings.cs" />
+    <Compile Include="GameObjects\Kingdoms\RankingsMode.cs" />
+    <Compile Include="GameObjects\Kingdoms\SAO_Kingdoms.cs" />
+    <Compile Include="GameObjects\Kingdoms\ThronePositions.cs" />
+    <Compile Include="GameObjects\MapObjects\ElementsInMap.cs" />
+    <Compile Include="GameObjects\MapObjects\Map.cs" />
+    <Compile Include="GameObjects\MapObjects\Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\MapObjects\MapMode.cs" />
+    <Compile Include="GameObjects\MapObjects\MapRates.cs" />
+    <Compile Include="GameObjects\Math\IRandomable.cs" />
+    <Compile Include="GameObjects\Math\ISizable.cs" />
+    <Compile Include="GameObjects\Math\ISizableF.cs" />
+    <Compile Include="GameObjects\Math\ISizeFable.cs" />
+    <Compile Include="GameObjects\Math\ISizeFProvider.cs" />
+    <Compile Include="GameObjects\Math\ISizeProvider.cs" />
+    <Compile Include="GameObjects\Math\PointW.cs" />
+    <Compile Include="GameObjects\Math\PointWF.cs" />
+    <Compile Include="GameObjects\Math\Randomic.cs" />
+    <Compile Include="GameObjects\Math\Range.cs" />
+    <Compile Include="GameObjects\Math\RectangleW.cs" />
+    <Compile Include="GameObjects\Math\RectangleWF.cs" />
+    <Compile Include="GameObjects\Math\SizeW.cs" />
+    <Compile Include="GameObjects\Math\SizeWF.cs" />
+    <Compile Include="GameObjects\Players\Avatar.cs" />
+    <Compile Include="GameObjects\Players\Avatar.Designer.cs">
+      <DependentUpon>Avatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Players\AvatarFormat.cs" />
+    <Compile Include="GameObjects\Players\AvatarFrame.cs" />
+    <Compile Include="GameObjects\Players\AvatarFrame.Designer.cs">
+      <DependentUpon>AvatarFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Players\AvatarFrameList.cs" />
+    <Compile Include="GameObjects\Players\AvatarFrames.cs" />
+    <Compile Include="GameObjects\Players\AvatarList.cs" />
+    <Compile Include="GameObjects\Players\Avatars.cs" />
+    <Compile Include="GameObjects\Players\PlayerSocialPosition.cs" />
+    <Compile Include="GameObjects\Players\SocialPosition.cs" />
+    <Compile Include="GameObjects\Players\SocialPosition.Designer.cs">
+      <DependentUpon>SocialPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Players\S_Avatars.cs" />
+    <Compile Include="GameObjects\Resources\WotoRes.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseClient.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseContent.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseCredential.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseDataChangedInfo.cs" />
+    <Compile Include="GameObjects\Characters\StorySteps.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseDeleteRequest.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseHeader.cs" />
+    <Compile Include="GameObjects\ServerObjects\DataBaseUpdateRequest.cs" />
+    <Compile Include="GameObjects\ServerObjects\DateBaseCreation.cs" />
+    <Compile Include="GameObjects\Troops\Archer.cs" />
+    <Compile Include="GameObjects\Troops\Assassin.cs" />
+    <Compile Include="GameObjects\Heroes\Hero.cs" />
+    <Compile Include="GameObjects\Troops\Lancer.cs" />
+    <Compile Include="GameObjects\Troops\MagicalTroop.cs" />
+    <Compile Include="GameObjects\Players\Me.Designer.cs">
+      <DependentUpon>Me.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjects\Players\PlayerElement.cs" />
+    <Compile Include="GameObjects\Troops\Saber.cs" />
+    <Compile Include="GameObjects\Troops\Troop.cs" />
+    <Compile Include="GameObjects\Math\Unit.cs" />
+    <Compile Include="GameObjects\Players\PlayerInfo.cs" />
+    <Compile Include="GameObjects\Players\Player.cs" />
+    <Compile Include="GameObjects\Players\Me.cs" />
+    <Compile Include="GameObjects\NPCs\NPC.cs" />
+    <Compile Include="GameObjects\ServerObjects\ThereIsServer.cs" />
+    <Compile Include="GameObjects\Troops\TroopManager.cs" />
+    <Compile Include="GameObjects\Village.cs" />
+    <Compile Include="LoadingService\AccountInfo.cs" />
+    <Compile Include="LoadingService\ProfileInfo.cs" />
+    <Compile Include="LoadingService\ProfilesList.cs" />
+    <Compile Include="LoadingService\ServerInfo.cs" />
+    <Compile Include="LoadingService\UpdateInfo.cs" />
+    <Compile Include="LoadingService\UpdateList.cs" />
+    <Compile Include="LoadingService\Version.cs" />
+    <Compile Include="LoadingService\ServerStatus.cs" />
+    <Compile Include="LoadingService\ServerConfig.cs" />
+    <Compile Include="LoadingService\ServerConfiguration.cs" />
+    <Compile Include="LoadingService\ServerConfiguration.Designer.cs">
+      <DependentUpon>ServerConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingService\EntryChecker.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SandBox\ButtonsOnSandBox.cs" />
+    <Compile Include="SandBox\CreateProfileSandBox.cs" />
+    <Compile Include="SandBox\CreateProfileSandBox.Designer.cs">
+      <DependentUpon>CreateProfileSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\CustomDesign.cs" />
+    <Compile Include="SandBox\FirstStoryLineSandBox.cs" />
+    <Compile Include="SandBox\FirstStoryLineSandBox.Designer.cs">
+      <DependentUpon>FirstStoryLineSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\HallSandBoxes\HallSandBox.cs" />
+    <Compile Include="SandBox\HallSandBoxes\HallSandBox.Designer.cs">
+      <DependentUpon>HallSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\HallSandBoxes\HallSandBoxMode.cs" />
+    <Compile Include="SandBox\KingdomInfoSandBox.cs" />
+    <Compile Include="SandBox\KingdomInfoSandBox.Designer.cs">
+      <DependentUpon>KingdomInfoSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\UpdatingServerSandBox.cs" />
+    <Compile Include="SandBox\UpdatingServerSandBox.Designer.cs">
+      <DependentUpon>UpdatingServerSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\ServerBreakSandBox.cs" />
+    <Compile Include="SandBox\ServerBreakSandBox.Designer.cs">
+      <DependentUpon>ServerBreakSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\NoInternetConnectionSandBox.cs" />
+    <Compile Include="SandBox\NoInternetConnectionSandBox.Designer.cs">
+      <DependentUpon>NoInternetConnectionSandBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\SandBoxMode.cs" />
+    <Compile Include="SandBox\SandBoxBase.cs" />
+    <Compile Include="SandBox\SandBoxBase.Designer.cs">
+      <DependentUpon>SandBoxBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandBox\YuiLoadingSandbox.cs" />
+    <Compile Include="SandBox\YuiLoadingSandbox.Designer.cs">
+      <DependentUpon>YuiLoadingSandbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\DateProvider.cs" />
+    <Compile Include="Security\DECoder.cs" />
+    <Compile Include="Security\DECodingBase.cs" />
+    <Compile Include="Security\ISecurity.cs" />
+    <Compile Include="Security\MainDataSecurity.cs" />
+    <Compile Include="Security\QString.cs" />
+    <Compile Include="Security\StrongString.cs" />
+    <EmbeddedResource Include="Client\GameClient.resx">
+      <DependentUpon>GameClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Assets\Icons\GameIcon.resx">
+      <DependentUpon>GameIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Music\wotoMusic.resx">
+      <DependentUpon>wotoMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Characters\Character.resx">
+      <DependentUpon>Character.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Characters\DialogBoxProvider.resx">
+      <DependentUpon>DialogBoxProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Heroes\Hero.resx">
+      <DependentUpon>Hero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\MapObjects\Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Players\Avatar.resx">
+      <DependentUpon>Avatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Players\AvatarFrame.resx">
+      <DependentUpon>AvatarFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjects\Players\SocialPosition.resx">
+      <DependentUpon>SocialPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SandBox\CreateProfileSandBox.resx">
+      <DependentUpon>CreateProfileSandBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\FirstStoryLineSandBox.resx">
+      <DependentUpon>FirstStoryLineSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\HallSandBoxes\HallSandBox.resx">
+      <DependentUpon>HallSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\KingdomInfoSandBox.resx">
+      <DependentUpon>KingdomInfoSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\NoInternetConnectionSandBox.resx">
+      <DependentUpon>NoInternetConnectionSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\ServerBreakSandBox.resx">
+      <DependentUpon>ServerBreakSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\UpdatingServerSandBox.resx">
+      <DependentUpon>UpdatingServerSandBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandBox\YuiLoadingSandbox.resx">
+      <DependentUpon>YuiLoadingSandbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="bin\x86\Debug\SAO UI.ttf" />
+    <None Include="bin\x86\Debug\SAOUI-Regular.otf" />
+    <None Include="bin\x86\Debug\SAOWelcomeTT-Bold.ttf" />
+    <None Include="bin\x86\Debug\SAOWelcomeTT-Regular.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SAO_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2020-06-11_14-41-48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2020-06-11_14-41-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2020-06-11_14-41-00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2020-06-11_14-40-53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2020-06-11_14-40-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameObjects\Heroes\Hero.xml" />
+    <Content Include="icon-android-512.ico" />
+    <None Include="Resources\SwordEntry7.jpg" />
+    <None Include="Resources\SwordEntry6.jpg" />
+    <None Include="Resources\photo_2020-11-19_18-03-01.jpg" />
+    <None Include="Resources\Logo2.png" />
+    <None Include="Resources\Aincard_in_ALO.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\2059637a25fe555632e01b6e9f517e74.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameObjects\LiveBattle\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
