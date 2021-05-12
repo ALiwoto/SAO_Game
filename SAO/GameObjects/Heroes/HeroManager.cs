@@ -1,4 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿// Copyright (C) ALiwoto 2019 - 2020
+// This file is subject to the terms and conditions defined in
+// file 'LICENSE', which is part of the source code.
+
+using System.Threading.Tasks;
 using SAO.GameObjects.ServerObjects;
 using SAO.GameObjects.Math;
 

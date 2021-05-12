@@ -1,4 +1,8 @@
-﻿#define SAO_SOUND_PLAYER
+﻿// Copyright (C) ALiwoto 2019 - 2020
+// This file is subject to the terms and conditions defined in
+// file 'LICENSE', which is part of the source code.
+
+#define SAO_SOUND_PLAYER
 
 using System;
 using System.ComponentModel;

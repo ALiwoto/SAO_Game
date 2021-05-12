@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Copyright (C) ALiwoto 2019 - 2020
+// This file is subject to the terms and conditions defined in
+// file 'LICENSE', which is part of the source code.
+
+using System;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading.Tasks;
@@ -932,44 +936,44 @@ namespace SAO.GameObjects.ServerObjects
             public static ServerInfo[] MyServers =
             {
                 // for SAO_Game
-                new ServerInfo("SAO_Game", "16a8ec756d6dec4c3d46f98515aa5e47427b0da3",
-                    "ALiwoto", "SAO_Game", "master"), // Index: 0
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 0
                 // for North Kingdom
-                new ServerInfo("North", "67830432c366276e835c90a26a5691eff7582857",
-                    "ALexwoto", "North", "main"), // Index: 1
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 1
                 // for South Kingdom
-                new ServerInfo("South", "19efc5c3d6c38873db5715f9a9d0343be7fc110f",
-                    "RZS110", "South", "main"), // Index: 2
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 2
                 // for West Kingdom
-                new ServerInfo("West", "a3851fb2e0424b0e88ca779c65707b9c884a64b7",
-                    "Mayura75", "West", "main"), // Index: 3
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 3
                 // for East Kingdom
-                new ServerInfo("East", "a8535681f3747020f385050d207dcac203012411",
-                    "RokuroBenio", "East", "main"), // Index: 4
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 4
                 // for Private Chats
-                new ServerInfo("SAO_Privates", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_Privates", "main"), // Index: 5
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 5
                 // for kingdom1 Chats
-                new ServerInfo("chat1", "6f5be7d5a73f0d2d70c7fcf06e6e221ae2279344",
-                    "artoria10", "chat1", "main"), // Index: 6
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 6
                 // for kingdom2 Chats
-                new ServerInfo("SAO_k2", "707e723bfdb42a6564a361d23993af8867069449",
-                    "AdashinoBenio", "SAO_k2", "main"), // Index: 7
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 7
                 // for kingdom3 Chats
-                new ServerInfo("SAO_k3", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_k3", "main"), // Index: 8
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 8
                 // for kingdom4 Chats
-                new ServerInfo("SAO_k4", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_k4", "main"), // Index: 9
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 9
                 // for Guild Chats
-                new ServerInfo("SAO_Guilds", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_Guilds", "main"), // Index: 10
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 10
                 // for Cross Chats
-                new ServerInfo("SAO_Cross", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_Cross", "main"), // Index: 11
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 11
                 // for System Chats
-                new ServerInfo("SAO_System", "f2be1cd1a13fac6201ca1cbfee83e0f66043caea",
-                    "Araragi10", "SAO_System", "main"), // Index: 12
+                new ServerInfo("<(REPO_NAME)>", "<(TOKEN)>",
+                    "<(USER_NAME)>", "<(REPO_NAME)>", "<(BRANCH)>"), // Index: 12
             };
             /// <summary>
             /// username of user + _LogedIn
@@ -978,15 +982,15 @@ namespace SAO.GameObjects.ServerObjects
             /*
             public struct Server1
             {
-                public const string ProductHeaderValue  = "SAO_Game";
-                public const string Token               = "16a8ec756d6dec4c3d46f98515aa5e47427b0da3";
-                public const string Owner               = "ALiwoto";
-                public const string Repo                = "SAO_Game";
-                public const string Branch              = "master";
+                public const string ProductHeaderValue  = "";
+                public const string Token               = "";
+                public const string Owner               = "";
+                public const string Repo                = "";
+                public const string Branch              = "";
                 /// <summary>
                 /// username of user + _LogedIn
                 /// </summary>
-                public const string EndCheckingFileName = "_LogedIn";
+                public const string EndCheckingFileName = "";
                 //------------------------------------------
                 public static GitHubClient ServerClient = new GitHubClient(new ProductHeaderValue(ProductHeaderValue))
                 {
@@ -998,11 +1002,11 @@ namespace SAO.GameObjects.ServerObjects
             /// </summary>
             public struct Server2
             {
-                //67830432c366276e835c90a26a5691eff7582857 
-                public const string ProductHeaderValue = "North";
-                public const string Token = "67830432c366276e835c90a26a5691eff7582857";
-                public const string Owner = "ALexwoto";
-                public const string Repo = "North";
+                // 
+                public const string ProductHeaderValue = "";
+                public const string Token = "";
+                public const string Owner = "";
+                public const string Repo = "";
                 public const string Branch = "master";
                 //------------------------------------------
                 public static GitHubClient ServerClient = new GitHubClient(new ProductHeaderValue(ProductHeaderValue))
@@ -1017,10 +1021,10 @@ namespace SAO.GameObjects.ServerObjects
             {
                 //67830432c366276e835c90a26a5691eff7582857 
                 public const string ProductHeaderValue = "South";
-                public const string Token = "19efc5c3d6c38873db5715f9a9d0343be7fc110f";
-                public const string Owner = "RZS110";
-                public const string Repo = "South";
-                public const string Branch = "master";
+                public const string Token = "";
+                public const string Owner = "";
+                public const string Repo = "";
+                public const string Branch = "";
                 //------------------------------------------
                 public static GitHubClient ServerClient = new GitHubClient(new ProductHeaderValue(ProductHeaderValue))
                 {
